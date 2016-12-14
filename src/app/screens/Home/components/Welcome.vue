@@ -12,6 +12,8 @@
       If you have any issues with the setup, please file an issue at this boilerplate's
       <a href="https://github.com/vuejs-templates/webpack" target="_blank">repository</a>.
     </p>
+    <itcss-component></itcss-component>
+    <p>.</p>
     <p>
       You may also want to checkout
       <a href="https://github.com/vuejs/vue-router/" target="_blank">vue-router</a> for routing and
@@ -23,6 +25,3 @@
 <script>
   export default {}
 </script>
-
-<style lang="scss">
-</style>

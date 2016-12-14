@@ -1,10 +1,14 @@
+// imports modules
 import Vue from 'vue'
-
-import store from './config/store'
-import router from './config/router'
 import { sync } from 'vuex-router-sync'
 
-import Root from './components/Root'
+import componentsGlobal from './config/componentsGlobal'
+componentsGlobal(Vue)
+
+// import libraries
+import Root from './root'
+import router from './config/router'
+import store from './config/store'
 
 sync(store, router)
 
