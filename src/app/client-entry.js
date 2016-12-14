@@ -1,4 +1,4 @@
-require('styles/main.scss')
+require('styles/main.styl')
 
 import {app} from './app'
 
